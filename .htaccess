@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^paquetes-turisticos-cusco-tradicional-4d\.html$ tour.php?slug=paquetes-turisticos-cusco-tradicional-4d [L,QSA]

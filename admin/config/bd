@@ -1,0 +1,18 @@
+nombre bd mistcusc_cuscomistico
+create table usuario
+(
+id_usuario int primary KEY AUTO_INCREMENT,
+    usuario varchar(100) not null,
+    pass varchar(100) not null,
+    tipo varchar(50)
+)
+create table oferta
+(
+	id_oferta int PRIMARY key AUTO_INCREMENT,
+    titulo text not null,
+    cuerpo text not null,
+    incluye text null,
+    imagen varchar(300) null,
+    archivo varchar(300) null,
+    estado int
+)
